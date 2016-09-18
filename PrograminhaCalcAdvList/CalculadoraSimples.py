@@ -56,7 +56,7 @@ def calculadora(operaçao, nums):
         multiplicaçao(nums)
         pergunta = str(input("Deseja voltar para o menu?\n"))
         if pergunta == "Sim" or pergunta == "sim":
-            ModuloPrincipal.main()
+            ModuloPrincipalMenu.main()
         elif pergunta == "Não" or pergunta == "não":
             print("Programa encerrado.")
     elif operaçao == "Divisão" or operaçao == "divisão":
