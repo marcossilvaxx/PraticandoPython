@@ -27,11 +27,13 @@ def main():
         print("Comando desconhecido. Programa encerrado.")
         
 
-a = "Inicializando menu"
 
-for x in range(0,3):
-    a = a + "."
-    print(a)
-    time.sleep(1)
+if __name__ == "__main__":
 
-main()
+    a = "Inicializando menu"
+
+    for x in range(0,3):
+        a = a + "."
+        print(a)
+        time.sleep(1)
+    main()
