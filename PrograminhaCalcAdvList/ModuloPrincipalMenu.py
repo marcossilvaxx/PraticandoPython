@@ -9,9 +9,9 @@ def main():
     escolha = eval(input("Qual das opções você quer usar?:\n"))
 
     if escolha == 1:
-        import JogoAdivinhação
+        import JogoAdivinhacao
         num = eval(input("Informe um número entre 1 e 10:\n"))
-        JogoAdivinhação.jogo_adivinhaçao(num)
+        JogoAdivinhacao.jogo_adivinhaçao(num)
 
     elif escolha == 2:
         import CalculadoraSimples
